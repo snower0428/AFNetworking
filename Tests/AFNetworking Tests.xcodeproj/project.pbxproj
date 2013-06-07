@@ -60,8 +60,6 @@
 		2580153B173EB3A70026AA6E /* AFHTTPRequestOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationTests.m; sourceTree = "<group>"; };
 		2580153E173EB3A70026AA6E /* AFNetworkingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingTests.h; sourceTree = "<group>"; };
 		2580153F173EB3A70026AA6E /* AFNetworkingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTests.m; sourceTree = "<group>"; };
-		25801549173EB4B40026AA6E /* Pods-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
-		2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-osx.xcconfig"; path = "Pods/Pods-osx.xcconfig"; sourceTree = "<group>"; };
 		25C4EC2A173D7DB30083E116 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		25C4EC2C173D7DBA0083E116 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		25C4EC2E173D7DC40083E116 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -124,8 +122,6 @@
 		2544EC29173BE382004117E8 = {
 			isa = PBXGroup;
 			children = (
-				25801549173EB4B40026AA6E /* Pods-ios.xcconfig */,
-				2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */,
 				25801548173EB3B00026AA6E /* Tests */,
 				2544EC37173BE382004117E8 /* AFNetworking */,
 				2544EC34173BE382004117E8 /* Frameworks */,
@@ -422,7 +418,6 @@
 		};
 		2544EC5B173BE382004117E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25801549173EB4B40026AA6E /* Pods-ios.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -438,7 +433,6 @@
 		};
 		2544EC5C173BE382004117E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25801549173EB4B40026AA6E /* Pods-ios.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -454,7 +448,6 @@
 		};
 		2544ECA8173BFAA8004117E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -473,7 +466,6 @@
 		};
 		2544ECA9173BFAA8004117E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
